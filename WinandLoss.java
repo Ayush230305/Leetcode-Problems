@@ -37,3 +37,9 @@ public class WinandLoss {
         return answer;
     }
 }
+public static void main(String[] args) {
+    WinandLoss solution = new WinandLoss();
+    int[][] matches = {{1, 2}, {2, 3}, {3, 4}, {4, 5}};
+    List<List<Integer>> result = solution.findWinners(matches);
+    System.out.println(result);
+}
